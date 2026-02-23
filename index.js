@@ -61,6 +61,7 @@ client.on('messageCreate', (message) => {
       message.channel.send(`🔥 TEAM READY 🔥\n${team}`);
     }
 
+    //test comment
     // CUSTOM SUGGEST
     if (position === 6) {
       message.channel.send(`⚠ 6+ players joined → Custom game possible`);
